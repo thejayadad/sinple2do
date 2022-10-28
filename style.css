@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: monospace;
+    color: white;
+    background: #222;
+
+}
+
+#item{
+    display: block;
+	font-size: 1.125rem;
+	padding: .5rem 1.5rem;
+	color: #FFF;
+    background: black;
+	border-radius: 0.5rem;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+#submit{
+    display: block;
+	font-size: 1.125rem;
+	padding: .5rem 1.5rem;
+	color: #FFF;
+	font-weight: 700;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: 0.2s ease-out;
+    background: black;
+    width: 230px;
+    text-align: center;
+}
